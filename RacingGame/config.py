@@ -10,14 +10,14 @@ DOOR_SIZE = 40
 
 # Player Settings
 PLAYER_RADIUS = 10
-PLAYER_SPEED = 100
+PLAYER_SPEED = 100 
 
 # Screen Size
 WIDTH = ROOM_WIDTH * GRID_COLS
 HEIGHT = ROOM_HEIGHT * GRID_ROWS
 
 # Colors (R, G, B)
-BG_COLOR = (20, 20, 24)
+BG_COLOR = (20, 120, 24)
 WALL_COLOR = (200, 200, 200)
 PLAYER_COLOR = (100, 200, 255)
 BOX_COLOR = (225,153,100)
@@ -26,6 +26,6 @@ BOX_COLOR = (225,153,100)
 FPS = 60
 
 # --- Player appearance ---
-PLAYER_IMAGE_PATH = "./goose.png"  # transparent PNG, e.g. 48x48
+PLAYER_IMAGE_PATH = "./pngtree-car-sports-car-transportation-png-image_8253017.png"  # transparent PNG, e.g. 48x48
 PLAYER_IMAGE_SIZE = (48, 48)             # w, h in pixels
 PLAYER_RADIUS = 24                       # half of width; used by your collision
